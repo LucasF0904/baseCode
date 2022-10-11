@@ -1,0 +1,19 @@
+{
+  "name": "basecode",
+  "version": "1.0.0",
+  "description": "Base code in Typescript, using Node.js with tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasF0904/baseCode.git"
+  },
+  "author": "Lucas Davi Ferreira de Faria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasF0904/baseCode/issues"
+  },
+  "homepage": "https://github.com/LucasF0904/baseCode#readme"
+}
