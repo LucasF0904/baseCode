@@ -1,0 +1,17 @@
+{
+	"drive": "postgres",
+	"type": "postgres",
+	"host": "localhost",
+	"port": 5432,
+	"username": "root",
+	"password": "root",
+	"database": "baseCode",
+	"schema": "baseCode",
+	"entities": ["./src/modules/**/infra/typeorm/entities/*.ts", "./src/modules/shared/**/infra/typeorm/entities/*.ts"],
+	"migrations": ["./src/shared/database/typeorm/migrations/*.ts"],
+	"seeds": ["src/shared/database/typeorm/seeding/seeds/*.ts"],
+	"factories": ["src/shared/database/typeorm/seeding/factories/*.ts"],
+	"cli": {
+		"migrationsDir": "./src/shared/database/typeorm/migrations"
+	}
+}
