@@ -11,7 +11,7 @@ const app = {
    | any other location as required by the application or its packages.
    |
 	*/
-	name: process.env.APP_NAME || 'advy-back',
+	name: process.env.APP_NAME || 'baseLocal',
 
 	/*
   | Application Environment
