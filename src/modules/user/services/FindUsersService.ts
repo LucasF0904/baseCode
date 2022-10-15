@@ -10,15 +10,15 @@ class FindUsersService {
     ) {}
 
     public async findAll(): Promise<IUser[] | undefined> {
-        const state = await this.usersRepository.findAll();
+        const user = await this.usersRepository.findAll();
 
-        return state;
+        return user;
     }
 
     public async findById(id: string): Promise<IUser | undefined> {
-        const state = await this.usersRepository.findById(id);
+        const user = await this.usersRepository.findById(id);
 
-        return state;
+        return user;
     }
 }
 

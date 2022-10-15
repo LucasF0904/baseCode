@@ -5,7 +5,7 @@ import IPersonRepository from '@modules/shared/persons/domain/repositories/IPers
 import Person from '../entities/Person';
 
 class PersonRepository implements IPersonRepository {
-	private ormRepository: Repository<IPerson>;
+	private ormRepository: Repository<Person>;
 
 	constructor() {
 		this.ormRepository = getRepository(Person);

@@ -28,15 +28,15 @@ class Person implements IPerson {
 
 	@Exclude()
 	@CreateDateColumn()
-	created_at: string;
+	created_at: Date;
 
 	@Exclude()
 	@UpdateDateColumn()
-	updated_at: string;
+	updated_at: Date;
 
 	@Exclude()
 	@DeleteDateColumn()
-	deleted_at: string;
+	deleted_at: Date;
 }
 
 export default Person;
