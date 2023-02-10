@@ -1,9 +1,8 @@
 const cache = {
 	redis: {
 		drive: 'redis',
-		host: 'docker.for.mac.localhost',
+		host: '127.0.0.1',
 		port: 6379,
-		password: 'root',
 	},
 	expires: 28800,
 };

@@ -1,7 +1,7 @@
 import { sign } from 'jsonwebtoken';
 import auth from '@config/auth';
-import IUser from '@modules/users/domain/interfaces/IUser';
-import IUserResponseLogin from '@modules/users/domain/interfaces/IUserResponseLogin';
+import IUser from '@modules/user/domain/interfaces/IUser';
+import IUserResponseLogin from '@modules/user/domain/interfaces/IUserResponseLogin';
 
 class AuthJwt {
 	public async sign(user: IUser): Promise<IUserResponseLogin> {

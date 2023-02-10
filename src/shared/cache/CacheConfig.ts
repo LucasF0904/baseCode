@@ -6,7 +6,7 @@ export default {
 		redis: {
 			host: cache.redis.host,
 			port: cache.redis.port,
-			password: cache.redis.password,
+			//password: cache.redis.password,
 		},
 	},
 	driver: cache.redis.drive,

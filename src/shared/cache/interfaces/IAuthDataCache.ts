@@ -1,7 +1,7 @@
-import IUsers from '@modules/users/domain/interfaces/IUsers';
+import IUser from '@modules/user/domain/interfaces/IUser';
 
 interface IAuthDataCache {
-	user: IUsers;
+	user: IUser;
 	refreshToken: string;
 	accessToken: string;
 }
