@@ -1,9 +1,9 @@
-import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
 
 import ILogAuth from '@modules/logAuth/domain/interfaces/ILogAuth';
 import ITypeAuth from '@modules/logAuth/domain/interfaces/ITypeAuth';
-import User from '@modules/users/infra/typeorm/entities/User';
-import IUser from '@modules/users/domain/interfaces/IUser';
+import User from '@modules/user/infra/typeorm/entities/User';
+import IUser from '@modules/user/domain/interfaces/IUser';
 
 @Entity('log_auth')
 class LogAuth implements ILogAuth {
@@ -23,6 +23,9 @@ class LogAuth implements ILogAuth {
 
 	@CreateDateColumn()
 	created_at: Date;
+
+	@UpdateDateColumn()
+	updated_at: Date;
 }
 
 export default LogAuth;

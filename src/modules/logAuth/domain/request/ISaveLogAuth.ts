@@ -1,5 +1,5 @@
 import typeAuth from '@modules/logAuth/domain/interfaces/ITypeAuth';
-import IUser from '@modules/users/domain/interfaces/IUser';
+import IUser from '@modules/user/domain/interfaces/IUser';
 
 interface ISaveLogAuth {
 	user: IUser;

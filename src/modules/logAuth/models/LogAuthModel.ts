@@ -1,7 +1,7 @@
 import { Schema, model } from 'mongoose';
 import ILogAuth from '@modules/logAuth/domain/interfaces/ILogAuth';
 import typeAuth from '@modules/logAuth/domain/interfaces/ITypeAuth';
-import User from '@modules/users/infra/typeorm/entities/User';
+import User from '@modules/user/infra/typeorm/entities/User';
 import ILog from '../domain/interfaces/ILog';
 
 export interface ITypeLogs {
